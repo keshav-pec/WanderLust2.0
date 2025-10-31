@@ -16,11 +16,19 @@ const Landing = () => {
       {/* Hero Section with Video Background */}
       <section className="hero-section">
         <div className="video-background">
-          <video autoPlay loop muted playsInline className="hero-video">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="hero-video"
+            poster="https://images.pexels.com/videos/2169880/free-video-2169880.jpg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1920"
+          >
             <source
-              src="https://videos.pexels.com/video-files/3015510/3015510-uhd_2732_1440_25fps.mp4"
+              src="https://www.pexels.com/download/video/2169880/"
               type="video/mp4"
             />
+            Your browser does not support the video tag.
           </video>
           <div className="video-overlay"></div>
         </div>
@@ -89,11 +97,19 @@ const Landing = () => {
       {/* Destination Showcase with Parallax */}
       <section className="destination-showcase">
         <div className="showcase-video-bg">
-          <video autoPlay loop muted playsInline className="showcase-video">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="showcase-video"
+            poster="https://images.pexels.com/videos/3843201/free-video-3843201.jpg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1920"
+          >
             <source
-              src="https://videos.pexels.com/video-files/3843201/3843201-uhd_2732_1440_25fps.mp4"
+              src="https://videos.pexels.com/video-files/3843201/3843201-hd_1920_1080_25fps.mp4"
               type="video/mp4"
             />
+            Your browser does not support the video tag.
           </video>
           <div className="showcase-overlay"></div>
         </div>
