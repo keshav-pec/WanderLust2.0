@@ -1,0 +1,169 @@
+.navbar {
+  height: 5rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #222;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.fa-hotel {
+  color: #ff5a5f;
+  font-size: 2rem;
+}
+
+.brand-text {
+  color: #222;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff5a5f;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #ff5a5f;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #e04e53;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.btn-outline:hover {
+  background-color: #222;
+  color: white;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 968px) {
+  .navbar-container {
+    padding: 0 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 4rem;
+  }
+
+  .navbar-container {
+    padding: 0 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .fa-hotel {
+    font-size: 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+    padding: 0.3rem;
+  }
+
+  .user-name {
+    display: none; /* Hide username text on mobile */
+  }
+
+  .btn {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 0.75rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .navbar-links {
+    gap: 0.3rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
