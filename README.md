@@ -4,6 +4,12 @@
 
 A full-stack property listing platform where users can discover, list, and review travel accommodations worldwide.
 
+## 🌐 Live Demo
+
+- **Frontend**: https://wander-lust2-0.vercel.app
+- **Backend API**: https://wanderlust-b.vercel.app/api
+- **Test Login**: Username: `keshav` | Password: `keshav`
+
 ## 🚀 Tech Stack
 
 - **Frontend**: React 18 + Vite
