@@ -35,13 +35,18 @@ mongoose
 
 // CORS configuration - allows frontend to communicate with backend
 const allowedOrigins = [
+  // Local development
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
   "http://localhost:5176",
+  // Production domains
+  "https://wanderlust-org.vercel.app",
+  "https://wander-lust2-0.vercel.app",
+  "https://wanderlust-pec.vercel.app",
 ];
 
-// Add production frontend URL if provided
+// Add custom frontend URL from environment if provided
 if (process.env.FRONTEND_URL && !allowedOrigins.includes(process.env.FRONTEND_URL)) {
   allowedOrigins.push(process.env.FRONTEND_URL);
 }

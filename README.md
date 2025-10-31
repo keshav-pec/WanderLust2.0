@@ -6,9 +6,14 @@ A full-stack property listing platform where users can discover, list, and revie
 
 ## 🌐 Live Demo
 
-- **Frontend**: https://wander-lust2-0.vercel.app
-- **Backend API**: https://wanderlust-b.vercel.app/api
-- **Test Login**: Username: `keshav` | Password: `keshav`
+**Frontend Domains**:
+- https://wanderlust-org.vercel.app
+- https://wander-lust2-0.vercel.app
+- https://wanderlust-pec.vercel.app
+
+**Backend API**: https://wanderlust-b.vercel.app/api
+
+**Test Login**: Username: `keshav` | Password: `keshav`
 
 ## 🚀 Tech Stack
 
