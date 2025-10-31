@@ -1,13 +1,13 @@
 .listings-container {
-  padding: 2rem 0;
+  padding: 1.5rem 0 2rem 0;
   min-height: calc(100vh - 10rem);
 }
 
 .listings-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -20,7 +20,7 @@
 }
 
 .listings-count {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #666;
   font-weight: 500;
   margin: 0;
@@ -223,5 +223,8 @@
 
   .listing-image {
     height: 200px;
+  }
+  .listings-header {
+    margin-bottom: -0.5rem;
   }
 }

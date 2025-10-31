@@ -6,10 +6,11 @@
   top: 64px; /* Below navbar */
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 0;
 }
 
 .search-bar-wrapper {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -283,10 +284,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  padding: 1rem 2rem;
-  max-width: 1400px;
+  padding: 0 2rem 0.75rem 2rem;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-top: 0;
 }
 
 .active-filter-tag {
