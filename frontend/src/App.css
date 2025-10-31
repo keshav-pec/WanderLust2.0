@@ -4,6 +4,47 @@
 /* Import Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
 
+/* ============================================
+   MOUNTAIN MAJESTY COLOR SCHEME
+   ============================================ */
+:root {
+  /* Primary Colors - Forest Green */
+  --color-primary: #2d6a4f;
+  --color-primary-light: #52b788;
+  --color-primary-lighter: #74c69d;
+  --color-primary-dark: #1b4332;
+  --color-primary-darker: #081c15;
+  
+  /* Accent Colors - Desert Mustard */
+  --color-accent: #e8b923;
+  --color-accent-light: #f5d547;
+  --color-accent-dark: #d4a017;
+  
+  /* Neutral Colors */
+  --color-background: #f1faee;
+  --color-surface: #ffffff;
+  --color-text-primary: #1b4332;
+  --color-text-secondary: #2d6a4f;
+  --color-text-light: #52b788;
+  --color-text-muted: #666;
+  
+  /* Gradient Combinations */
+  --gradient-primary: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
+  --gradient-accent: linear-gradient(135deg, #e8b923 0%, #f5d547 100%);
+  --gradient-overlay: linear-gradient(
+    135deg,
+    rgba(45, 106, 79, 0.7) 0%,
+    rgba(82, 183, 136, 0.6) 50%,
+    rgba(45, 106, 79, 0.7) 100%
+  );
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(45, 106, 79, 0.1);
+  --shadow-md: 0 4px 12px rgba(45, 106, 79, 0.15);
+  --shadow-lg: 0 8px 30px rgba(45, 106, 79, 0.2);
+  --shadow-xl: 0 15px 40px rgba(45, 106, 79, 0.25);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,8 +57,8 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8f9fa;
-  color: #222;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
 }
 
 .app {
@@ -48,26 +89,28 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
 }
 
 .btn-primary {
-  background-color: #ff5a5f;
+  background: var(--gradient-primary);
   color: white;
+  box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
-  background-color: #e04e53;
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 .btn-outline {
   background-color: transparent;
-  color: #222;
-  border: 1px solid #222;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 
 .btn-outline:hover {
-  background-color: #222;
+  background-color: var(--color-primary);
   color: white;
 }
 

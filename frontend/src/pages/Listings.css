@@ -1,4 +1,4 @@
-.home-container {
+.listings-container {
   padding: 2rem 0;
   min-height: calc(100vh - 10rem);
 }
@@ -148,7 +148,7 @@
 
 /* Mobile responsiveness */
 @media (max-width: 968px) {
-  .home-container {
+  .listings-container {
     padding: 1.5rem 0;
   }
 
@@ -163,7 +163,7 @@
 }
 
 @media (max-width: 768px) {
-  .home-container {
+  .listings-container {
     padding: 1rem 0;
   }
 
@@ -200,10 +200,6 @@
 }
 
 @media (max-width: 480px) {
-  .page-title {
-    font-size: 1.35rem;
-  }
-
   .listings-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
@@ -211,21 +207,5 @@
 
   .listing-image {
     height: 200px;
-  }
-
-  .listing-content {
-    padding: 0.875rem;
-  }
-
-  .listing-title {
-    font-size: 1.1rem;
-  }
-
-  .listing-location {
-    font-size: 0.85rem;
-  }
-
-  .listing-price {
-    font-size: 1rem;
   }
 }

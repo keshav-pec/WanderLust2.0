@@ -26,7 +26,7 @@
 }
 
 .footer-brand .fa-hotel {
-  color: #ff5a5f;
+  color: #2d6a4f;
 }
 
 .footer-links {
@@ -35,13 +35,13 @@
 }
 
 .footer-link {
-  color: #222;
+  color: #2d6a4f;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .footer-link:hover {
-  color: #ff5a5f;
+  color: #52b788;
 }
 
 .footer-socials {
@@ -50,13 +50,13 @@
 }
 
 .social-link {
-  color: #222;
+  color: #2d6a4f;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
 
 .social-link:hover {
-  color: #ff5a5f;
+  color: #52b788;
 }
 
 .footer-bottom {

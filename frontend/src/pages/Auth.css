@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #ff5a5f 0%, #ff8589 100%);
+  background: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
 }
 
 .auth-card {
@@ -52,8 +52,8 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #ff5a5f;
-  box-shadow: 0 0 0 3px rgba(255, 90, 95, 0.1);
+  border-color: #2d6a4f;
+  box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.15);
 }
 
 .btn-block {
@@ -73,9 +73,13 @@
 }
 
 .auth-footer a {
-  color: #ff5a5f;
+  color: #2d6a4f;
   text-decoration: none;
   font-weight: 500;
+}
+
+.auth-footer a:hover {
+  color: #52b788;
 }
 
 .auth-footer a:hover {

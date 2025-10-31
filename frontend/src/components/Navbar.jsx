@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
 
         <div className="navbar-links">
-          <Link to="/" className="nav-link">
+          <Link to="/listings" className="nav-link">
             Explore
           </Link>
 

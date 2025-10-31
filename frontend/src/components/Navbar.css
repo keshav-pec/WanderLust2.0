@@ -28,12 +28,12 @@
 }
 
 .fa-hotel {
-  color: #ff5a5f;
+  color: #2d6a4f;
   font-size: 2rem;
 }
 
 .brand-text {
-  color: #222;
+  color: #1b4332;
 }
 
 .navbar-links {
@@ -43,14 +43,14 @@
 }
 
 .nav-link {
-  color: #222;
+  color: #2d6a4f;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-link:hover {
-  color: #ff5a5f;
+  color: #52b788;
 }
 
 .user-name {
@@ -70,12 +70,13 @@
 }
 
 .btn-primary {
-  background-color: #ff5a5f;
+  background: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #e04e53;
+  background: #1b4332;
+  transform: translateY(-2px);
 }
 
 .btn-outline {
